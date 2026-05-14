@@ -1,0 +1,15 @@
+<!-- Blog Card 1 -->
+<div class="pub-item" style="margin-bottom:1.5rem;">
+  <div class="pub-title">Into the Hidden Valley: On a Quest for High Mountain Data</div>
+  <div class="pub-authors">ICIMOD Field Blog</div>
+  <div class="pub-journal" style="margin-bottom:0.5rem;">A firsthand account of glacier monitoring expeditions in remote Himalayan valleys.</div>
+  <a href="https://www.icimod.org/into-the-hidden-valley-on-a-quest-for-high-mountain-data/" target="_blank" style="color:#2e86ab; font-size:0.85rem; font-weight:600;">Read on ICIMOD →</a>
+</div>
+
+<!-- Blog Card 2 -->
+<div class="pub-item" style="margin-bottom:1.5rem;">
+  <div class="pub-title">Ensuring Long-Term Data Series on Trambau and Trakarding Glaciers, Rolwaling Valley</div>
+  <div class="pub-authors">ICIMOD Field Blog</div>
+  <div class="pub-journal" style="margin-bottom:0.5rem;">Documenting efforts to maintain continuous glacier monitoring records in the Rolwaling Valley, Nepal.</div>
+  <a href="https://www.icimod.org/article/ensuring-long-term-data-series-on-trambau-and-trakarding-glaciers-rolwaling-valley/" target="_blank" style="color:#2e86ab; font-size:0.85rem; font-weight:600;">Read on ICIMOD →</a>
+</div>

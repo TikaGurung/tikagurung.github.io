@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Tika Ram Gurung"
+  favicon: "favicon.ico"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: blogs.qmd
+        text: BLOGS
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/tikargrg
+      - icon: linkedin
+        href: https://www.linkedin.com/in/tika-ram-gurung-55a743a3/
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full
+    title-block-banner: false

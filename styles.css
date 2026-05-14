@@ -1,0 +1,396 @@
+/* ── Google Fonts ── */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;600&family=JetBrains+Mono:wght@400&display=swap');
+
+/* ── Color Palette: Himalayan Ice & Earth ── */
+:root {
+  --glacier-blue:   #1a4a6e;
+  --ice-light:      #d6eaf8;
+  --peak-white:     #f8fbfd;
+  --earth-brown:    #5d4037;
+  --meltwater:      #2e86ab;
+  --snow-gray:      #e8edf0;
+  --text-dark:      #1c2833;
+  --text-mid:       #4a5568;
+  --accent-gold:    #c9a84c;
+  --nav-bg:         #0d2b45;
+}
+
+/* ── Base ── */
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 300;
+  color: var(--text-dark);
+  background: var(--peak-white);
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  color: var(--glacier-blue);
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85em;
+}
+
+/* ── Navbar ── */
+.navbar {
+  background-color: var(--nav-bg) !important;
+  border-bottom: 3px solid var(--accent-gold);
+  padding: 0.8rem 2rem;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #ffffff !important;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.02em;
+}
+
+.navbar .nav-link {
+  color: #c8d8e8 !important;
+  font-weight: 400;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.navbar .nav-link:hover {
+  color: var(--accent-gold) !important;
+}
+
+/* ── Hero Section ── */
+.hero-section {
+background: linear-gradient(135deg, rgba(13,43,69,0.88), rgba(13,43,69,0.75)),
+            url('Tika.JPG');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 5rem 2rem 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 60px;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 1200 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,60 200,10 400,45 600,5 800,40 1000,8 1200,35 1200,60' fill='%23f8fbfd'/%3E%3C/svg%3E");
+  background-size: cover;
+}
+
+.hero-section::after {
+  content: '';
+  position: absolute;
+  top: -50px; right: -50px;
+  width: 300px; height: 300px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.04);
+}
+
+.hero-name {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  line-height: 1.1;
+}
+
+.hero-title {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: var(--ice-light);
+  margin-bottom: 0.2rem;
+  letter-spacing: 0.03em;
+}
+
+.hero-affil {
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.65);
+  margin-bottom: 1.5rem;
+}
+
+.hero-tagline {
+  font-style: italic;
+  color: rgba(255,255,255,0.82);
+  font-size: 1rem;
+  max-width: 520px;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.badge-pill {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #e0edf7;
+  border-radius: 20px;
+  padding: 0.25rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.hero-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--accent-gold);
+  color: var(--nav-bg);
+  padding: 0.55rem 1.3rem;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-right: 0.6rem;
+  margin-bottom: 0.5rem;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.hero-links a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  text-decoration: none;
+  color: var(--nav-bg);
+}
+
+.hero-links a.secondary {
+  background: transparent;
+  border: 1.5px solid rgba(255,255,255,0.4);
+  color: white;
+}
+
+.hero-links a.secondary:hover {
+  border-color: white;
+  color: white;
+}
+
+/* ── Section Styles ── */
+.section {
+  padding: 4rem 2rem;
+}
+
+.section-alt {
+  background: var(--snow-gray);
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.9rem;
+  color: var(--glacier-blue);
+  margin-bottom: 0.4rem;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--accent-gold);
+  margin-top: 0.4rem;
+}
+
+/* ── Cards ── */
+.project-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(26,74,110,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(26,74,110,0.15);
+}
+
+.project-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.project-card-body {
+  padding: 1.4rem 1.5rem;
+}
+
+.project-card-body h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  color: var(--glacier-blue);
+}
+
+.project-card-body p {
+  font-size: 0.92rem;
+  color: var(--text-mid);
+  line-height: 1.65;
+}
+
+.tag {
+  display: inline-block;
+  background: var(--ice-light);
+  color: var(--glacier-blue);
+  border-radius: 3px;
+  padding: 0.18rem 0.6rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-right: 0.3rem;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ── Publication List ── */
+.pub-item {
+  border-left: 3px solid var(--meltwater);
+  padding: 0.9rem 1.2rem;
+  margin-bottom: 1.2rem;
+  background: white;
+  border-radius: 0 6px 6px 0;
+  box-shadow: 0 1px 6px rgba(26,74,110,0.06);
+}
+
+.pub-item:hover {
+  border-left-color: var(--accent-gold);
+}
+
+.pub-item .pub-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  color: var(--glacier-blue);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.pub-item .pub-authors {
+  font-size: 0.88rem;
+  color: var(--text-mid);
+  margin-bottom: 0.15rem;
+}
+
+.pub-item .pub-journal {
+  font-size: 0.88rem;
+  color: var(--earth-brown);
+  font-style: italic;
+}
+
+.pub-item a {
+  color: var(--meltwater);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+/* ── Stats Row ── */
+.stat-box {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.stat-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--glacier-blue);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.88rem;
+  color: var(--text-mid);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 0.3rem;
+}
+
+/* ── Timeline ── */
+.timeline-item {
+  border-left: 2px solid var(--ice-light);
+  padding: 0 0 1.5rem 1.5rem;
+  position: relative;
+  margin-left: 0.5rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -7px; top: 4px;
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: var(--meltwater);
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px var(--meltwater);
+}
+
+.timeline-year {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--meltwater);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 0.15rem;
+}
+
+.timeline-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  color: var(--glacier-blue);
+  margin-bottom: 0.1rem;
+}
+
+.timeline-sub {
+  font-size: 0.88rem;
+  color: var(--text-mid);
+}
+
+/* ── Award Banner ── */
+.award-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.2rem;
+  background: white;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+}
+
+.award-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+/* ── Footer ── */
+.site-footer {
+  background: var(--nav-bg);
+  color: rgba(255,255,255,0.6);
+  text-align: center;
+  padding: 2.5rem 1rem;
+  font-size: 0.88rem;
+}
+
+.site-footer a {
+  color: var(--accent-gold);
+}
+
+/* ── Responsive tweaks ── */
+@media (max-width: 768px) {
+  .hero-section { padding: 3.5rem 1.2rem 3rem; }
+  .section { padding: 2.5rem 1.2rem; }
+}
+
+/* ── quarto overrides ── */
+#quarto-content { padding: 0; }
+main.content { padding: 0; max-width: 100%; }

@@ -1,0 +1,75 @@
+---
+title: ""
+page-layout: full
+---
+
+```{=html}
+<div style="background: linear-gradient(135deg,#0d2b45,#1a4a6e); color:white; padding:3.5rem 2rem 3rem;">
+  <div style="max-width:900px; margin:0 auto;">
+    <h1 style="font-family:'Playfair Display',serif; font-size:2.4rem; margin-bottom:0.4rem;">Contact</h1>
+    <p style="color:#c8d8e8;">I'm always happy to discuss research collaborations, questions, or opportunities.</p>
+  </div>
+</div>
+
+<section class="section" style="background:white;">
+  <div style="max-width:700px; margin:0 auto;">
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; margin-bottom:3rem;">
+
+      <div style="background:#f0f6fb; border-radius:8px; padding:1.5rem; text-align:center;">
+        <div style="font-size:2rem; margin-bottom:0.5rem;">✉️</div>
+        <div style="font-weight:600; color:#1a4a6e; margin-bottom:0.3rem;">Email (Academic)</div>
+        <a href="mailto:tgurung3@nebraska.edu" style="color:#2e86ab; font-size:0.9rem;">tgurung3@nebraska.edu</a>
+      </div>
+
+      <div style="background:#f0f6fb; border-radius:8px; padding:1.5rem; text-align:center;">
+        <div style="font-size:2rem; margin-bottom:0.5rem;">📧</div>
+        <div style="font-weight:600; color:#1a4a6e; margin-bottom:0.3rem;">Email (Personal)</div>
+        <a href="mailto:tikargrg@gmail.com" style="color:#2e86ab; font-size:0.9rem;">tikargrg@gmail.com</a>
+      </div>
+      
+      <div style="background:#f0f6fb; border-radius:8px; padding:1.5rem; text-align:center;">
+        <div style="font-size:2rem; margin-bottom:0.5rem;">🔗</div>
+        <div style="font-weight:600; color:#1a4a6e; margin-bottom:0.3rem;">LinkedIn</div>
+        <a href="hhttps://www.linkedin.com/in/tika-ram-gurung-55a743a3" target="_blank" style="color:#2e86ab; font-size:0.9rem;">View profile →</a>
+      </div>
+
+
+      <div style="background:#f0f6fb; border-radius:8px; padding:1.5rem; text-align:center;">
+        <div style="font-size:2rem; margin-bottom:0.5rem;">📊</div>
+        <div style="font-weight:600; color:#1a4a6e; margin-bottom:0.3rem;">Google Scholar</div>
+        <a href="https://scholar.google.com/citations?user=TMxdLn0AAAAJ&hl=en" target="_blank" style="color:#2e86ab; font-size:0.9rem;">View profile →</a>
+      </div>
+
+      <div style="background:#f0f6fb; border-radius:8px; padding:1.5rem; text-align:center;">
+        <div style="font-size:2rem; margin-bottom:0.5rem;">🔬</div>
+        <div style="font-weight:600; color:#1a4a6e; margin-bottom:0.3rem;">ResearchGate</div>
+        <a href="https://www.researchgate.net/profile/Tika-Ram-Gurung?ev=hdr_xprf" target="_blank" style="color:#2e86ab; font-size:0.9rem;">View profile →</a>
+      </div>
+
+      <div style="background:#f0f6fb; border-radius:8px; padding:1.5rem; text-align:center;">
+        <div style="font-size:2rem; margin-bottom:0.5rem;">📍</div>
+        <div style="font-weight:600; color:#1a4a6e; margin-bottom:0.3rem;">Office</div>
+        <p style="color:#4a5568; font-size:0.88rem; margin:0;">Bessey Hall-131<br/>Lincoln, NE 68588, USA</p>
+      </div>
+    </div>
+
+<div style="background:#fff8e7; border-left:4px solid #c9a84c; border-radius:0 8px 8px 0; padding:1.2rem 1.5rem;">
+  <p style="font-size:0.92rem; color:#4a5568; margin:0 0 0.8rem 0;">
+    🎙️ <strong>Media &amp; Podcast:</strong> Featured on the <em>University of Nebraska – Daugherty Water for Food Podcast</em> discussing the Cryosphere and Food &amp; Water Security.
+  </p>
+  <a href="https://open.spotify.com/episode/5yIVY0I6cBrJUxgtr8SiGZ" target="_blank"
+     style="display:inline-flex; align-items:center; gap:0.5rem; background:#1DB954; color:white; padding:0.5rem 1.2rem; border-radius:20px; font-size:0.88rem; font-weight:600; text-decoration:none;">
+    ▶ Listen on Spotify
+  </a>
+</div>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>© 2026 Tika Ram Gurung · University of Nebraska-Lincoln</p>
+</footer>
+```

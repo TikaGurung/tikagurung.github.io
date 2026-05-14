@@ -4,6 +4,10 @@ project:
 
 website:
   title: "Tika Ram Gurung"
+  description: "Personal academic website of Tika Ram Gurung, Ph.D. candidate at University of Nebraska-Lincoln, specializing in glacier mass balance, hydroclimate, heatwaves, and climate modeling in High Mountain Asia."
+  open-graph: true
+  twitter-card: true
+  site-url: "https://tikagurung.github.io/tika-r-gurung-github.io/"
   favicon: "favicon.ico"
   navbar:
     left:

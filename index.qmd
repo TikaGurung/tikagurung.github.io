@@ -1,5 +1,6 @@
 ---
 title: ""
+description: "Tika Ram Gurung - Climate and cryosphere scientist at University of Nebraska-Lincoln researching glacier mass balance, hydroclimate, heatwaves, and irrigation impacts in High Mountain Asia."
 page-layout: full
 ---
 

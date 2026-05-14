@@ -4,6 +4,36 @@ page-layout: full
 ---
 
 ```{=html}
+<!-- HERO -->
+<div style="background: linear-gradient(135deg,#0d2b45,#1a4a6e); color:white; padding:1rem 2rem;">
+  <div style="max-width:1100px; margin:0 auto;">
+    <h1 style="font-family:'Playfair Display',serif; font-size:2.4rem; margin-bottom:0.4rem;">Contact</h1>
+    <p style="color:#c8d8e8;">I'm always happy to discuss research collaborations, questions, or opportunities.</p>
+  </div>
+</div>
+
+<!-- TWO COLUMN LAYOUT -->
+<div style="max-width:1100px; margin:0 auto; display:grid; grid-template-columns:220px 1fr; gap:2rem; padding:2rem;">
+
+  <!-- PROFILE SIDEBAR -->
+  <div>
+    <div class="profile-card">
+      <img src="figures/Tika_Face.JPG" alt="Tika Ram Gurung"/>
+      <div class="profile-name">Tika Ram Gurung</div>
+      <div class="profile-role">Ph.D. Candidate<br/>University of Nebraska-Lincoln</div>
+      <ul class="profile-links">
+        <li>📍 Lincoln, NE</li>
+        <li>✉️ <a href="mailto:tikargrg@gmail.com">tikargrg@gmail.com</a></li>
+        <li>🔬 <a href="https://www.researchgate.net/profile/Tika-Ram-Gurung" target="_blank">ResearchGate</a></li>
+        <li>🎓 <a href="https://scholar.google.com/citations?user=TMxdLn0AAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+        <li>💼 <a href="https://www.linkedin.com/in/tika-ram-gurung-55a743a3/" target="_blank">LinkedIn</a></li>
+        <li>🔵 <a href="https://orcid.org/0000-0003-4287-6150" target="_blank">ORCID</a></li>
+        <li>🐦 <a href="https://x.com/TR_Gurung" target="_blank">X / Twitter</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
 <div style="background: linear-gradient(135deg,#0d2b45,#1a4a6e); color:white; padding:1rem 1rem 1rem;">
   <div style="max-width:900px; margin:0 auto;">
     <h1 style="font-family:'Playfair Display',serif; font-size:2.4rem; margin-bottom:0.4rem;">Publications</h1>

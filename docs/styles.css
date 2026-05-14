@@ -394,3 +394,65 @@ background: linear-gradient(135deg, rgba(13,43,69,0.88), rgba(13,43,69,0.75)),
 /* ── quarto overrides ── */
 #quarto-content { padding: 0; }
 main.content { padding: 0; max-width: 100%; }
+
+
+/* ── Profile Sidebar Card ── */
+.profile-card {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(26,74,110,0.08);
+  margin-bottom: 2rem;
+}
+
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--ice-light);
+  margin-bottom: 0.8rem;
+}
+
+.profile-card .profile-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  color: var(--glacier-blue);
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.profile-card .profile-role {
+  font-size: 0.82rem;
+  color: var(--text-mid);
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.profile-card .profile-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.profile-card .profile-links li {
+  padding: 0.3rem 0;
+  font-size: 0.85rem;
+  color: var(--text-mid);
+  border-bottom: 1px solid #f0f4f8;
+}
+
+.profile-card .profile-links li:last-child {
+  border-bottom: none;
+}
+
+.profile-card .profile-links a {
+  color: var(--text-mid);
+  text-decoration: none;
+}
+
+.profile-card .profile-links a:hover {
+  color: var(--meltwater);
+}

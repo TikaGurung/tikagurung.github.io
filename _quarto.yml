@@ -24,8 +24,8 @@ website:
       - href: contact.qmd
         text: Contact
     right:
-      - icon: github
-        href: https://github.com/TikaGurung
+      - icon: google scholar
+        href: https://scholar.google.com/citations?user=TMxdLn0AAAAJ&hl=en
       - icon: linkedin
         href: https://www.linkedin.com/in/tika-ram-gurung-55a743a3/
 

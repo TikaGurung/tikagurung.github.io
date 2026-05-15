@@ -15,10 +15,12 @@ page-layout: full
   <div class="hero-badges" style="justify-content:center;">
     <span class="badge-pill">🏔️ Cryosphere</span>
     <span class="badge-pill">💧 Hydroclimate</span>
-    <span class="badge-pill">🌏 High Mountain Asia</span>
     <span class="badge-pill">🌾 Irrigation &amp; Climate</span>
     <span class="badge-pill">🔥 Heatwaves</span>
-    <span class="badge-pill">🏜️ Drought</span>
+    <span class="badge-pill">🌏 High Mountain Asia</span>
+
+    <span class="badge-pill">🌏 CONUS</span>
+    
     <span class="badge-pill">🖥️ WRF Modeling</span>
     <span class="badge-pill">📊 R &amp; Python</span>
   </div>
@@ -56,23 +58,27 @@ page-layout: full
 </section>
 
 <!-- TWO COLUMN LAYOUT FOR REST OF PAGE -->
-<div style="max-width:1100px; margin:0 auto; display:grid; grid-template-columns:220px 1fr; gap:2rem; padding:2rem;">
+<div style="max-width:1100px; margin:0 auto; display:grid; grid-template-columns:200px 1fr; gap:1rem; padding:1rem;">
 
-  <!-- PROFILE SIDEBAR -->
+    <!-- PROFILE SIDEBAR -->
   <div>
     <div class="profile-card">
       <img src="figures/Tika_Face.JPG" alt="Tika Ram Gurung"/>
       <div class="profile-name">Tika Ram Gurung</div>
-      <div class="profile-role">Ph.D. Candidate<br/>University of Nebraska-Lincoln</div>
-      <ul class="profile-links">
-        <li>📍 Lincoln, NE</li>
-        <li>✉️ <a href="mailto:tikargrg@gmail.com">tikargrg@gmail.com</a></li>
-        <li>🔬 <a href="https://www.researchgate.net/profile/Tika-Ram-Gurung" target="_blank">ResearchGate</a></li>
-        <li>🎓 <a href="https://scholar.google.com/citations?user=TMxdLn0AAAAJ&hl=en" target="_blank">Google Scholar</a></li>
-        <li>💼 <a href="https://www.linkedin.com/in/tika-ram-gurung-55a743a3/" target="_blank">LinkedIn</a></li>
-        <li>🔵 <a href="https://orcid.org/0000-0003-4287-6150" target="_blank">ORCID</a></li>
-        <li>🐦 <a href="https://x.com/TR_Gurung" target="_blank">X / Twitter</a></li>
-      </ul>
+    <div class="profile-role">Ph.D. Candidate<br/>University of Nebraska-Lincoln</div>
+     
+
+<ul class="profile-links">
+  <li>📍 Lincoln, NE</li>
+  <li>✉️ <a href="mailto:tikargrg@gmail.com">tikargrg@gmail.com</a></li>
+  <li><a href="https://www.researchgate.net/profile/Tika-Ram-Gurung" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> ResearchGate</a></li>
+  <li><a href="https://scholar.google.com/citations?user=TMxdLn0AAAAJ&hl=en" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> Google Scholar</a></li>
+  <li><a href="https://www.linkedin.com/in/tika-ram-gurung-55a743a3/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> LinkedIn</a></li>
+  <li><a href="https://orcid.org/0000-0003-4287-6150" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> ORCID</a></li>
+  <li><a href="https://x.com/TR_Gurung" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> X / Twitter</a></li>
+</ul>
+
+
     </div>
   </div>
 
@@ -91,7 +97,6 @@ page-layout: full
 
     <!-- Ongoing Research -->
     <div class="section-title" style="margin-top:2rem;">Ongoing Research</div>
-    <br/>
     <div style="display:grid; grid-template-columns:1fr; gap:1.2rem;">
       <div class="project-card">
         <img src="figures/DWFI_Moisture_flux_monsoon_control_difference_2016_2018_colorbar.png" alt="Moisture flux" style="height:300px; object-fit:contain; background:#f0f6fb; width:100%;"/>
@@ -113,7 +118,7 @@ page-layout: full
 
     <!-- Recent Publications -->
     <div class="section-title" style="margin-top:2rem;">Recent Publications</div>
-    <br/>
+
     <div class="pub-item">
       <div class="pub-title">Evaluating the performance of high-resolution climate simulations over the Central Himalaya and Karakoram</div>
       <div class="pub-authors"><strong>Gurung, T.R.</strong>, Chen, L., Ali, S.H., Rowe, C., Arriola, F.M. and Ritzema, R.S.</div>

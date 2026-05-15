@@ -6,7 +6,7 @@ title-block-banner: false
 
 ```{=html}
 <!-- HERO -->
-<div style="background: linear-gradient(135deg,#0d2b45,#1a4a6e); color:white; padding:1rem 2rem;">
+<div style="background: linear-gradient(135deg,#0d2b45,#1a4a6e); color:white; padding:1rem 1rem;">
   <div style="max-width:1100px; margin:0 auto;">
 
     <p style="color:#c8d8e8;">Tika Ram Gurung · Updated May 2026</p>
@@ -14,23 +14,26 @@ title-block-banner: false
 </div>
 
 <!-- TWO COLUMN LAYOUT -->
-<div style="max-width:1100px; margin:0 auto; display:grid; grid-template-columns:220px 1fr; gap:2rem; padding:2rem;">
+<div style="max-width:1100px; margin:0 auto; display:grid; grid-template-columns:200px 1fr; gap:1rem; padding:1rem 1rem;">
 
   <!-- PROFILE SIDEBAR -->
   <div>
     <div class="profile-card">
       <img src="figures/Tika_Face.JPG" alt="Tika Ram Gurung"/>
       <div class="profile-name">Tika Ram Gurung</div>
-      <div class="profile-role">Ph.D. Candidate<br/>University of Nebraska-Lincoln</div>
-      <ul class="profile-links">
-        <li>📍 Lincoln, NE</li>
-        <li>✉️ <a href="mailto:tikargrg@gmail.com">tikargrg@gmail.com</a></li>
-        <li>🔬 <a href="https://www.researchgate.net/profile/Tika-Ram-Gurung" target="_blank">ResearchGate</a></li>
-        <li>🎓 <a href="https://scholar.google.com/citations?user=TMxdLn0AAAAJ&hl=en" target="_blank">Google Scholar</a></li>
-        <li>💼 <a href="https://www.linkedin.com/in/tika-ram-gurung-55a743a3/" target="_blank">LinkedIn</a></li>
-        <li>🔵 <a href="https://orcid.org/0000-0003-4287-6150" target="_blank">ORCID</a></li>
-        <li>🐦 <a href="https://x.com/TR_Gurung" target="_blank">X / Twitter</a></li>
-      </ul>
+    <div class="profile-role">Ph.D. Candidate<br/>University of Nebraska-Lincoln</div>
+     
+<ul class="profile-links">
+  <li>📍 Lincoln, NE</li>
+  <li>✉️ <a href="mailto:tikargrg@gmail.com">tikargrg@gmail.com</a></li>
+  <li><a href="https://www.researchgate.net/profile/Tika-Ram-Gurung" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> ResearchGate</a></li>
+  <li><a href="https://scholar.google.com/citations?user=TMxdLn0AAAAJ&hl=en" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> Google Scholar</a></li>
+  <li><a href="https://www.linkedin.com/in/tika-ram-gurung-55a743a3/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> LinkedIn</a></li>
+  <li><a href="https://orcid.org/0000-0003-4287-6150" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> ORCID</a></li>
+  <li><a href="https://x.com/TR_Gurung" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> X / Twitter</a></li>
+</ul>
+
+
     </div>
   </div>
 
@@ -40,10 +43,10 @@ title-block-banner: false
     <!-- PDF Preview -->
     <iframe src="CV_Tika_Gurung.pdf"
             width="100%"
-            height="200px"
+            height="225px"
             style="border:none; border-radius:8px; box-shadow:0 4px 16px rgba(0,0,0,0.1); pointer-events:yes; margin-bottom:2rem;">
     </iframe>
-    <p style="font-size:0.82rem; color:#718096; text-align:center; margin-top:-1.5rem; margin-bottom:2rem; font-style:italic;">
+    <p style="font-size:0.82rem; color:#718096; text-align:center; margin-top:-1.5rem; margin-bottom:1rem; font-style:italic;">
     </p>
 
     <!-- Education -->
@@ -168,7 +171,7 @@ title-block-banner: false
       <div class="timeline-sub">Gurung, T.R. and Chen, L.</div>
       <a href="https://doi.org/10.1088/1748-9326/ad4dbb" target="_blank" style="font-size:0.82rem; color:#2e86ab; font-weight:600;">DOI →</a>
     </div>
-    <p style="margin-top:1rem;">
+    <p style="margin-top:2.5rem;">
       <a href="publications.html" style="color:#2e86ab; font-weight:600; font-size:0.88rem;">See all publications →</a>
     </p>
 

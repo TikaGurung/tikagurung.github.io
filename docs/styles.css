@@ -186,9 +186,9 @@ background: linear-gradient(135deg, rgba(13,43,69,0.88), rgba(13,43,69,0.75)),
 
 .section-title {
   font-family: 'Playfair Display', serif;
-  font-size: 1.9rem;
+  font-size: 1.2rem;
   color: var(--glacier-blue);
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.1rem;
   position: relative;
   display: inline-block;
 }
@@ -296,15 +296,15 @@ background: linear-gradient(135deg, rgba(13,43,69,0.88), rgba(13,43,69,0.75)),
 /* ── Stats Row ── */
 .stat-box {
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .stat-number {
   font-family: 'Playfair Display', serif;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: var(--glacier-blue);
-  line-height: 1;
+  line-height: 0.5;
 }
 
 .stat-label {
@@ -318,7 +318,7 @@ background: linear-gradient(135deg, rgba(13,43,69,0.88), rgba(13,43,69,0.75)),
 /* ── Timeline ── */
 .timeline-item {
   border-left: 2px solid var(--ice-light);
-  padding: 0 0 1.5rem 1.5rem;
+  padding: 0 0 0.5rem 1rem;
   position: relative;
   margin-left: 0.5rem;
 }
@@ -345,14 +345,15 @@ background: linear-gradient(135deg, rgba(13,43,69,0.88), rgba(13,43,69,0.75)),
 
 .timeline-title {
   font-family: 'Playfair Display', serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--glacier-blue);
   margin-bottom: 0.1rem;
 }
 
 .timeline-sub {
-  font-size: 0.88rem;
+  font-size: 0.7rem;
   color: var(--text-mid);
+  line-height: 1;
 }
 
 /* ── Award Banner ── */
@@ -360,7 +361,7 @@ background: linear-gradient(135deg, rgba(13,43,69,0.88), rgba(13,43,69,0.75)),
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  padding: 1rem 1.2rem;
+  padding: 1rem 1rem;
   background: white;
   border-radius: 6px;
   margin-bottom: 0.8rem;
@@ -368,7 +369,7 @@ background: linear-gradient(135deg, rgba(13,43,69,0.88), rgba(13,43,69,0.75)),
 }
 
 .award-icon {
-  font-size: 1.4rem;
+  font-size: 1rem;
   flex-shrink: 0;
 }
 
@@ -377,8 +378,8 @@ background: linear-gradient(135deg, rgba(13,43,69,0.88), rgba(13,43,69,0.75)),
   background: var(--nav-bg);
   color: rgba(255,255,255,0.6);
   text-align: center;
-  padding: 2.5rem 1rem;
-  font-size: 0.88rem;
+  padding: 1rem 1rem;
+  font-size: 0.8rem;
 }
 
 .site-footer a {
@@ -399,11 +400,11 @@ main.content { padding: 0; max-width: 100%; }
 /* ── Profile Sidebar Card ── */
 .profile-card {
   text-align: center;
-  padding: 1.5rem 1rem;
+  padding: 1rem 0.8rem;
   background: white;
   border-radius: 10px;
   box-shadow: 0 2px 12px rgba(26,74,110,0.08);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .profile-card img {
@@ -417,7 +418,7 @@ main.content { padding: 0; max-width: 100%; }
 
 .profile-card .profile-name {
   font-family: 'Playfair Display', serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--glacier-blue);
   font-weight: 600;
   margin-bottom: 0.2rem;
@@ -455,4 +456,82 @@ main.content { padding: 0; max-width: 100%; }
 
 .profile-card .profile-links a:hover {
   color: var(--meltwater);
+}
+
+
+.profile-links img {
+  width: 16px;
+  height: 16px;
+  align-items: center;
+  vertical-align: middle;
+  margin-right: 0.2rem;
+  border-radius: 3px;
+}
+
+
+/* ── Compact body text ── */
+p {
+  line-height: 1;
+  margin-bottom: 0.1rem;
+}
+
+.pub-item p {
+  line-height: 1;
+  margin-bottom: 0.1rem;
+}
+
+
+
+
+/* ── Mobile Responsive ── */
+@media (max-width: 768px) {
+
+  /* Stack sidebar and content vertically */
+  div[style*="grid-template-columns:220px"],
+  div[style*="grid-template-columns:200px"] {
+    display: block !important;
+  }
+
+  /* Full width profile card on mobile */
+  .profile-card {
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+  /* Smaller hero name */
+  .hero-name {
+    font-size: 2rem !important;
+  }
+
+  /* Smaller hero section padding */
+  .hero-section {
+    padding: 3rem 1rem 2.5rem !important;
+  }
+
+  /* Full width stats */
+  .stat-box {
+    padding: 0.8rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  /* Badges wrap nicely */
+  .hero-badges {
+    justify-content: center;
+  }
+
+  /* Buttons stack */
+  .hero-links a {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  /* Reduce padding */
+  .section {
+    padding: 1rem;
+  }
+
 }

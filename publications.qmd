@@ -13,25 +13,30 @@ title-block-banner: false
 </div>
 
 <!-- TWO COLUMN LAYOUT -->
-<div style="max-width:1100px; margin:0 auto; display:grid; grid-template-columns:220px 1fr; gap:2rem; padding:2rem;">
+<div style="max-width:1100px; margin:0 auto; display:grid; grid-template-columns:200px 1fr; gap:1rem; padding:1rem;">
 
   <!-- PROFILE SIDEBAR -->
   <div>
     <div class="profile-card">
       <img src="figures/Tika_Face.JPG" alt="Tika Ram Gurung"/>
       <div class="profile-name">Tika Ram Gurung</div>
-      <div class="profile-role">Ph.D. Candidate<br/>University of Nebraska-Lincoln</div>
-      <ul class="profile-links">
-        <li>📍 Lincoln, NE</li>
-        <li>✉️ <a href="mailto:tikargrg@gmail.com">tikargrg@gmail.com</a></li>
-        <li>🔬 <a href="https://www.researchgate.net/profile/Tika-Ram-Gurung" target="_blank">ResearchGate</a></li>
-        <li>🎓 <a href="https://scholar.google.com/citations?user=TMxdLn0AAAAJ&hl=en" target="_blank">Google Scholar</a></li>
-        <li>💼 <a href="https://www.linkedin.com/in/tika-ram-gurung-55a743a3/" target="_blank">LinkedIn</a></li>
-        <li>🔵 <a href="https://orcid.org/0000-0003-4287-6150" target="_blank">ORCID</a></li>
-        <li>🐦 <a href="https://x.com/TR_Gurung" target="_blank">X / Twitter</a></li>
-      </ul>
+    <div class="profile-role">Ph.D. Candidate<br/>University of Nebraska-Lincoln</div>
+     
+
+<ul class="profile-links">
+  <li>📍 Lincoln, NE</li>
+  <li>✉️ <a href="mailto:tikargrg@gmail.com">tikargrg@gmail.com</a></li>
+  <li><a href="https://www.researchgate.net/profile/Tika-Ram-Gurung" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> ResearchGate</a></li>
+  <li><a href="https://scholar.google.com/citations?user=TMxdLn0AAAAJ&hl=en" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> Google Scholar</a></li>
+  <li><a href="https://www.linkedin.com/in/tika-ram-gurung-55a743a3/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> LinkedIn</a></li>
+  <li><a href="https://orcid.org/0000-0003-4287-6150" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> ORCID</a></li>
+  <li><a href="https://x.com/TR_Gurung" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" width="16" height="16" style="vertical-align:middle; margin-right:4px;"/> X / Twitter</a></li>
+</ul>
+
+
     </div>
   </div>
+
 
   <!-- MAIN CONTENT -->
   <div>
@@ -42,7 +47,7 @@ title-block-banner: false
       <a href="https://www.researchgate.net/profile/Tika-Ram-Gurung?ev=hdr_xprf" target="_blank" style="color:#2e86ab; font-weight:600;">ResearchGate</a>
     </p>
 
-    <h2 style="font-family:'Playfair Display',serif; color:#1a4a6e; font-size:1.4rem; border-bottom:2px solid #d6eaf8; padding-bottom:0.4rem; margin-bottom:1.2rem;">2026</h2>
+    <h2 style="font-family:'Playfair Display',serif; color:#1a4a6e; font-size:1rem; border-bottom:2px solid #d6eaf8; padding-bottom:0.4rem; margin-bottom:1.2rem;">2026</h2>
     <div class="pub-item">
       <div class="pub-title">Evaluating the performance of high-resolution climate simulations over the Central Himalaya and Karakoram</div>
       <div class="pub-authors"><strong>Gurung, T.R.</strong>, Chen, L., Ali, S.H., Rowe, C., Arriola, F.M. and Ritzema, R.S.</div>
@@ -50,7 +55,7 @@ title-block-banner: false
       <a href="https://doi.org/10.1007/s00382-025-08030-x" target="_blank">DOI: 10.1007/s00382-025-08030-x →</a>
     </div>
 
-    <h2 style="font-family:'Playfair Display',serif; color:#1a4a6e; font-size:1.4rem; border-bottom:2px solid #d6eaf8; padding-bottom:0.4rem; margin-bottom:1.2rem; margin-top:2rem;">2025</h2>
+    <h2 style="font-family:'Playfair Display',serif; color:#1a4a6e; font-size:1rem; border-bottom:2px solid #d6eaf8; padding-bottom:0.4rem; margin-bottom:1.2rem; margin-top:2rem;">2025</h2>
     <div class="pub-item">
       <div class="pub-title">Modelling seasonal fluctuations and aspect characteristics of ice-cliff melt on the debris-covered Trakarding Glacier, Rolwaling Valley, Nepal Himalaya</div>
       <div class="pub-authors">Sato, Y., Buri, P., Kneib, M., Miles, E.S., Sunako, S., <strong>Gurung, T.R.</strong>, Sakai, A., Pellicciotti, F. and Fujita, K.</div>
@@ -58,7 +63,7 @@ title-block-banner: false
       <a href="https://doi.org/10.1017/jog.2025.17" target="_blank">DOI: 10.1017/jog.2025.17 →</a>
     </div>
 
-    <h2 style="font-family:'Playfair Display',serif; color:#1a4a6e; font-size:1.4rem; border-bottom:2px solid #d6eaf8; padding-bottom:0.4rem; margin-bottom:1.2rem; margin-top:2rem;">2024</h2>
+    <h2 style="font-family:'Playfair Display',serif; color:#1a4a6e; font-size:1rem; border-bottom:2px solid #d6eaf8; padding-bottom:0.4rem; margin-bottom:1.2rem; margin-top:2rem;">2024</h2>
     <div class="pub-item">
       <div class="pub-title">Understanding the influence of soil moisture on heatwave characteristics in the contiguous United States</div>
       <div class="pub-authors"><strong>Gurung, T.R.</strong> and Chen, L.</div>
@@ -66,7 +71,7 @@ title-block-banner: false
       <a href="https://doi.org/10.1088/1748-9326/ad4dbb" target="_blank">DOI: 10.1088/1748-9326/ad4dbb →</a>
     </div>
 
-    <h2 style="font-family:'Playfair Display',serif; color:#1a4a6e; font-size:1.4rem; border-bottom:2px solid #d6eaf8; padding-bottom:0.4rem; margin-bottom:1.2rem; margin-top:2rem;">2023</h2>
+    <h2 style="font-family:'Playfair Display',serif; color:#1a4a6e; font-size:1rem; border-bottom:2px solid #d6eaf8; padding-bottom:0.4rem; margin-bottom:1.2rem; margin-top:2rem;">2023</h2>
     <div class="pub-item">
       <div class="pub-title">Climate change impacts and adaptation to permafrost change in High Mountain Asia: a comprehensive review</div>
       <div class="pub-authors">Baral, P., Allen, S., Steiner, J.F., <strong>Gurung, T.R.</strong> and McDowell, G.</div>
@@ -80,7 +85,7 @@ title-block-banner: false
       <a href="https://doi.org/10.1017/jog.2022.93" target="_blank">DOI: 10.1017/jog.2022.93 →</a>
     </div>
 
-    <h2 style="font-family:'Playfair Display',serif; color:#1a4a6e; font-size:1.4rem; border-bottom:2px solid #d6eaf8; padding-bottom:0.4rem; margin-bottom:1.2rem; margin-top:2rem;">2021</h2>
+    <h2 style="font-family:'Playfair Display',serif; color:#1a4a6e; font-size:1rem; border-bottom:2px solid #d6eaf8; padding-bottom:0.4rem; margin-bottom:1.2rem; margin-top:2rem;">2021</h2>
     <div class="pub-item">
       <div class="pub-title">Mass balances of Yala and Rikha Samba Glacier, Nepal from 2000 to 2017</div>
       <div class="pub-authors">Stumm, D., Joshi, S.P., <strong>Gurung, T.R.</strong> and Silwal, G.</div>
@@ -94,7 +99,7 @@ title-block-banner: false
       <a href="https://doi.org/10.1002/hyp.14189" target="_blank">DOI: 10.1002/hyp.14189 →</a>
     </div>
 
-    <h2 style="font-family:'Playfair Display',serif; color:#1a4a6e; font-size:1.4rem; border-bottom:2px solid #d6eaf8; padding-bottom:0.4rem; margin-bottom:1.2rem; margin-top:2rem;">2020</h2>
+    <h2 style="font-family:'Playfair Display',serif; color:#1a4a6e; font-size:1rem; border-bottom:2px solid #d6eaf8; padding-bottom:0.4rem; margin-bottom:1.2rem; margin-top:2rem;">2020</h2>
     <div class="pub-item">
       <div class="pub-title">The influence of water percolation through crevasses on the thermal regime of a Himalayan mountain glacier</div>
       <div class="pub-authors">Gilbert, A., Sinisalo, A., <strong>Gurung, T.R.</strong>, Fujita, K., Maharjan, S.B., Sherpa, T.C. and Fukuda, T.</div>
